@@ -1,0 +1,5 @@
+# Lệnh kiểm tra file config
+sudo sshd -t # kiểm tra file cấu hình etc/ssh/sshd_config
+
+# Clear teminal almost Linux OS
+Tổ hợp phím Ctrl và L
