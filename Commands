@@ -3,3 +3,10 @@ sudo sshd -t # kiểm tra file cấu hình etc/ssh/sshd_config
 
 # Clear teminal almost Linux OS
 Tổ hợp phím Ctrl và L
+
+
+# Tìm kiếm file file/foldir
+find / -name "tên cần tìm" # tìm tất file hoặc folder trong thư mục cần tìm, / là thư mục root, ~ là thư mục home của user
+find / -type f -name "tên cần tìm"  # tìm file
+find / -type d -name "tên cần tìm" # tìm folder
+find / -iname "tên cần tìm" # tìm folder hoặc file phân biệt hoa thường
